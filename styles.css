@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* 
+.body{
+    background-color: rgb(20, 20, 20);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  
+} */
+
+.body{
+    background-color: black;
+}
+
+
+/* shared styles */
+
+.display-flex{
+    display: flex;
+}
+
+
+/* button */
+
+.btn-primary1{
+    background-color: #E6533C;
+    border-radius: 42px;
+    border: none;
+    color: antiquewhite;
+    padding: 16px 40px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn-primary2{
+    border: 1px solid antiquewhite;
+    background-color: black;
+    border-radius: 42px;
+    color: antiquewhite;
+    padding: 16px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* display grid */
+ .display-grid{
+    display: grid;
+ }
+
+/* text color */
+.color01{
+    color: #FFFFFF;
+}
+.color02{
+    color:#E6533C;
+}
+.color03{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.color04{
+    color: black;
+}
+/* navbar styles */
+
+#item1{
+    background-color: #E6533C;
+}
+
+.nav-list{
+    width: 665px;
+    height: 46px;
+    border-radius: 39px;
+   
+   
+  
+}
+.nav-item{
+    list-style: none;
+    margin-right: 47px;
+    border-radius: 39px;
+    padding: 8px 20px;
+    
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.navbar{
+    justify-content: space-around;
+    align-items: center;
+    gap: auto;
+}
+
+.header{
+    background-color: rgb(20, 20, 20);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  
+}
+
+
+
+/* title styles */
+
+.part1{
+    padding-bottom: 20px;
+}
+
+.part1-des{
+    width: 520px;
+    margin-left: 190px;
+}
+
+.title{
+    text-align: left;
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+.title-description{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.part1{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/* main styles */
+.team{
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: auto;
+}
+.trainer{
+   
+
+}
+ .trainer .team-member img{
+    height: 270px;
+    width: 325px;
+ }
+
+ .trainer .team-member .name{
+        
+ }
+ 
+
+
+/* footer */
+.footer{
+
+    background-color: black;
+}
+
+.section1{
+    grid-template-columns: repeat(3,1fr);
+}
+
+.footer1 , .footer2 , .footer3{
+    grid-template-columns: repeat(1,1fr);
+    max-width: 1060px;
+    margin-right: 40px;
+    padding-left: 90px;
+    align-items: baseline;
+
+    
+}
+.link{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.list{
+    flex-direction: column;
+}
+.item{
+    list-style: none;
+    padding-bottom: 20px;
+    
+}
+
+.title{
+    font-size: 4.3rem;
+    font-weight: 800;
+}
+.sub-title{
+    color: #FFFFFF;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.copyright{
+    text-align: center;
+
+}
+
+
+@media screen and (max-width:992px) {
+    .section1{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
